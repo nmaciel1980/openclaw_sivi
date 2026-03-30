@@ -1,3 +1,122 @@
 tar: The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
 tar: --exclude './.git' has no effect
 tar: Exiting with failure status due to previous errors
+[master (root-commit) 908704f] backup: workspace 2026-03-17_134835Z
+ 41 files changed, 2416 insertions(+)
+ create mode 100644 .env
+ create mode 100644 .openclaw/workspace-state.json
+ create mode 100644 AGENTS.md
+ create mode 100644 HEARTBEAT.md
+ create mode 100644 IDENTITY.md
+ create mode 100644 MEMORY.md
+ create mode 100644 SOUL.md
+ create mode 100644 TOOLS.md
+ create mode 100644 USER.md
+ create mode 100644 backup.log
+ create mode 100644 backup_2026-03-15/AGENTS.md
+ create mode 100644 backup_2026-03-15/HEARTBEAT.md
+ create mode 100644 backup_2026-03-15/IDENTITY.md
+ create mode 100644 backup_2026-03-15/MEMORY.md
+ create mode 100644 backup_2026-03-15/SOUL.md
+ create mode 100644 backup_2026-03-15/TOOLS.md
+ create mode 100644 backup_2026-03-15/USER.md
+ create mode 100644 contracts/GEOMARK_contrato_revisado_jura.html
+ create mode 100644 contracts/GEOMARK_contrato_revisado_jura.pdf
+ create mode 100644 contracts/analyze_meeting_transcript.md
+ create mode 100644 contracts/generate_pdf.md
+ create mode 100644 contracts/register_nelson_tasks.md
+ create mode 100644 docs/routing-rules.md
+ create mode 100644 index.html
+ create mode 100644 memory/backup_2026-03-16/blockers.md
+ create mode 100644 memory/backup_2026-03-16/decisions.md
+ create mode 100644 memory/backup_2026-03-16/key-facts.md
+ create mode 100644 memory/backup_2026-03-16/lessons.md
+ create mode 100644 memory/backup_2026-03-16/state-changes.md
+ create mode 100644 memory/blockers.md
+ create mode 100644 memory/decisions.md
+ create mode 100644 memory/key-facts.md
+ create mode 100644 memory/lessons.md
+ create mode 100644 memory/sessions/2026-03-07.md
+ create mode 100644 memory/sessions/2026-03-10.md
+ create mode 100644 memory/state-changes.md
+ create mode 100755 scripts/backup_to_github.sh
+ create mode 100644 teste-final-envio-telegram.pdf
+ create mode 100644 teste-pdf-sivi.base64.txt
+ create mode 100644 teste-pdf-sivi.pdf
+ create mode 100644 ultimo-teste-final-envio-telegram.pdf
+From https://github.com/nmaciel1980/openclaw_sivi
+ * [new branch]      backup_2026-03-17_124323Z -> origin/backup_2026-03-17_124323Z
+ * [new branch]      backup_din_2026-03-17_133800Z -> origin/backup_din_2026-03-17_133800Z
+ * [new branch]      backup_din_2026-03-17_134116Z -> origin/backup_din_2026-03-17_134116Z
+ * [new branch]      backup_din_2026-03-17_134532Z -> origin/backup_din_2026-03-17_134532Z
+ * [new branch]      backup_eli_2026-03-17_134118Z -> origin/backup_eli_2026-03-17_134118Z
+ * [new branch]      backup_eli_2026-03-17_134532Z -> origin/backup_eli_2026-03-17_134532Z
+ * [new branch]      backup_guru_2026-03-17_134120Z -> origin/backup_guru_2026-03-17_134120Z
+ * [new branch]      backup_guru_2026-03-17_134532Z -> origin/backup_guru_2026-03-17_134532Z
+ * [new branch]      backup_jura_2026-03-17_133751Z -> origin/backup_jura_2026-03-17_133751Z
+ * [new branch]      backup_jura_2026-03-17_134122Z -> origin/backup_jura_2026-03-17_134122Z
+ * [new branch]      backup_jura_2026-03-17_134532Z -> origin/backup_jura_2026-03-17_134532Z
+ * [new branch]      backup_manu_2026-03-17_134125Z -> origin/backup_manu_2026-03-17_134125Z
+ * [new branch]      backup_manu_2026-03-17_134532Z -> origin/backup_manu_2026-03-17_134532Z
+ * [new branch]      backup_tilt_2026-03-17_134127Z -> origin/backup_tilt_2026-03-17_134127Z
+ * [new branch]      backup_tilt_2026-03-17_134532Z -> origin/backup_tilt_2026-03-17_134532Z
+ * [new branch]      backup_ze_2026-03-17_134129Z -> origin/backup_ze_2026-03-17_134129Z
+ * [new branch]      backup_ze_2026-03-17_134532Z -> origin/backup_ze_2026-03-17_134532Z
+ * [new branch]      main       -> origin/main
+remote: 
+remote: Create a pull request for 'backup_2026-03-17_134835Z' on GitHub by visiting:        
+remote:      https://github.com/nmaciel1980/openclaw_sivi/pull/new/backup_2026-03-17_134835Z        
+remote: 
+To https://github.com/nmaciel1980/openclaw_sivi.git
+ * [new branch]      HEAD -> backup_2026-03-17_134835Z
+branch 'backup_2026-03-17_134835Z' set up to track 'origin/backup_2026-03-17_134835Z'.
+{
+  "ref": "refs/heads/main",
+  "node_id": "REF_kwDORotZ3K9yZWZzL2hlYWRzL21haW4",
+  "url": "https://api.github.com/repos/nmaciel1980/openclaw_sivi/git/refs/heads/main",
+  "object": {
+    "sha": "908704f403932b9689df0db9be122581066c33a5",
+    "type": "commit",
+    "url": "https://api.github.com/repos/nmaciel1980/openclaw_sivi/git/commits/908704f403932b9689df0db9be122581066c33a5"
+  }
+}
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+[main 283e476] add backup folder backup_2026-03-17_134835Z
+ 34 files changed, 1938 insertions(+)
+ create mode 100644 backup_2026-03-17_134835Z/.env
+ create mode 100644 backup_2026-03-17_134835Z/.openclaw/workspace-state.json
+ create mode 100644 backup_2026-03-17_134835Z/AGENTS.md
+ create mode 100644 backup_2026-03-17_134835Z/HEARTBEAT.md
+ create mode 100644 backup_2026-03-17_134835Z/IDENTITY.md
+ create mode 100644 backup_2026-03-17_134835Z/MEMORY.md
+ create mode 100644 backup_2026-03-17_134835Z/SOUL.md
+ create mode 100644 backup_2026-03-17_134835Z/TOOLS.md
+ create mode 100644 backup_2026-03-17_134835Z/USER.md
+ create mode 100644 backup_2026-03-17_134835Z/backup.log
+ create mode 100644 backup_2026-03-17_134835Z/contracts/GEOMARK_contrato_revisado_jura.html
+ create mode 100644 backup_2026-03-17_134835Z/contracts/GEOMARK_contrato_revisado_jura.pdf
+ create mode 100644 backup_2026-03-17_134835Z/contracts/analyze_meeting_transcript.md
+ create mode 100644 backup_2026-03-17_134835Z/contracts/generate_pdf.md
+ create mode 100644 backup_2026-03-17_134835Z/contracts/register_nelson_tasks.md
+ create mode 100644 backup_2026-03-17_134835Z/docs/routing-rules.md
+ create mode 100644 backup_2026-03-17_134835Z/index.html
+ create mode 100644 backup_2026-03-17_134835Z/memory/backup_2026-03-16/blockers.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/backup_2026-03-16/decisions.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/backup_2026-03-16/key-facts.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/backup_2026-03-16/lessons.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/backup_2026-03-16/state-changes.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/blockers.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/decisions.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/key-facts.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/lessons.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/sessions/2026-03-07.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/sessions/2026-03-10.md
+ create mode 100644 backup_2026-03-17_134835Z/memory/state-changes.md
+ create mode 100755 backup_2026-03-17_134835Z/scripts/backup_to_github.sh
+ create mode 100644 backup_2026-03-17_134835Z/teste-final-envio-telegram.pdf
+ create mode 100644 backup_2026-03-17_134835Z/teste-pdf-sivi.base64.txt
+ create mode 100644 backup_2026-03-17_134835Z/teste-pdf-sivi.pdf
+ create mode 100644 backup_2026-03-17_134835Z/ultimo-teste-final-envio-telegram.pdf
+To https://github.com/nmaciel1980/openclaw_sivi.git
+   908704f..283e476  main -> main
